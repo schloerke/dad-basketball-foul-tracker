@@ -1,0 +1,91 @@
+<html>
+
+	<head>
+		<title>Dad's Awesome Foul Tracker</title>
+
+
+	 <style type="text/css">
+	   <!--
+	   h1, h2, h3, h4
+	   {
+	     margin: 0;
+	     margin-right: 10px;
+	     margin-top: 5px;
+	   }
+
+	   h1
+	   {
+	     padding-top:5px;
+	   }
+
+	   hr
+	   {
+	     margin-top:0px;
+	     margin-bottom:3px;
+	   }
+
+	   .PlayerNumber
+	   {
+	     position:absolute;
+	     top: 0;
+	     left: 5px;
+	   }
+
+	   .PlayerName
+	   {
+	     position:absolute;
+	     top: 0;
+	     left: 45px;
+	   }
+
+	   .PlayerFouls
+	   {
+	     position:absolute;
+	     top: 0;
+	     left: 70%;
+	   }
+
+	   .TeamFouls
+	   {
+	     /* border-style: double;*/
+	     font-size:150%;
+
+
+	   }
+
+	   .slot
+	   {
+	     position: relative;
+	   }
+	   -->
+	 </style>
+
+	 	<script>
+			window.onload = function(){
+				function loadjsfile(filename){
+					var fileref=document.createElement('script')
+					fileref.setAttribute("type","text/javascript")
+					fileref.setAttribute("src", filename + "?" + Math.floor(1000 * Math.random()))
+					document.getElementsByTagName("head")[0].appendChild(fileref)
+				}
+
+				loadjsfile("Pretty.js")
+				loadjsfile("forms.js")
+
+				setTimeout(function() {
+					load()
+				}, 1000)
+			}
+	 	</script>
+
+
+	</head>
+	<body>
+
+<!-- 	 // <script type="text/javascript" src="Pretty.js"></script>
+	 // <script type="text/javascript" src="forms.js"></script>
+	 <script type="text/javascript">
+	 	load()
+	 </script>
+ -->	</body>
+</html>
