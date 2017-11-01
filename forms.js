@@ -292,7 +292,7 @@ function addCycloneRoster(sideP)
 
 
 roster.push( new player(0, "1" , "Madison Wise"           , 0, "F", "6-1" , "Fr", "Greenfield, Indiana"     , "Reg"));
-roster.push( new player(1, "3" , "Emily Durr"             , 0, "G", "6-0" , "Sr", "Utica, N.Y."             , "Reg"));
+roster.push( new player(1, "3" , "Emily Durr"             , 0, "G", "6-0" , "Sr", "Utica, N.Y."             , "Star"));
 roster.push( new player(0, "4" , "Rae Johnson"            , 0, "G", "5-7" , "Fr", "Albertville, Minn."      , "Reg"));
 roster.push( new player(0, "10", "NEE-uh Washington"      , 0, "G", "5-7" , "So", "Stafford, Va."           , "Reg"));
 roster.push( new player(1, "12", "Hop-oh-a-tay"           , 0, "F", "6-4" , "Jr", "Brisbane, Australia"     , "Reg"));
