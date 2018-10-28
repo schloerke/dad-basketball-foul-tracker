@@ -303,7 +303,6 @@ roster.push( new player(0, "23", "Maddie Frederick"       , 0, "G", "6-0" , "Fr"
 roster.push( new player(1, "24", "Ashley Joens"           , 0, "G", "6-0" , "Fr", "Iowa City, Iowa", "Reg"));
 roster.push( new player(0, "25", "Kristin Scott"          , 0, "C", "6-3" , "So", "Kasson, Minn."           , "Reg"));
 roster.push( new player(0, "31", "Morgan Kane"            , 0, "F", "6-3" , "Fr", "West Jordan, Utah"           , "Reg"));
-roster.push( new player(0, "30", "Claire Ricketts"        , 0, "F", "6-3" , "Jr", "Parker, Texas"           , "Reg"));
 roster.push( new player(0, "32", "Mere Burkhall"          , 0, "F", "6-3" , "Sr", "Urbandale, Iowa"         , "Reg"));
 roster.push( new player(1, "33", "Alexa Middleton"        , 0, "G", "5-9" , "Sr", "Murfreesboro, Tenn."      , "Reg"));
 
