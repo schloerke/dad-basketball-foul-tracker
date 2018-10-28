@@ -291,18 +291,23 @@ function addCycloneRoster(sideP)
   var roster = new Array();
 
 
-roster.push( new player(0, "1" , "Maddie Wise"           , 0, "F", "6-1" , "Fr", "Greenfield, Indiana"     , "Reg"));
-roster.push( new player(1, "3" , "Emily Durr"             , 0, "G", "6-0" , "Sr", "Utica, N.Y."             , "Star"));
-roster.push( new player(0, "4" , "Rae Johnson"            , 0, "G", "5-7" , "Fr", "Albertville, Minn."      , "Reg"));
-roster.push( new player(0, "10", "NEE-uh Washington"      , 0, "G", "5-7" , "So", "Stafford, Va."           , "Reg"));
-roster.push( new player(0, "12", "Bride-ee Kennedy Hop-oh-a-tay"           , 0, "F", "6-4" , "Jr", "Brisbane, Australia"     , "Reg"));
+roster.push( new player(1, "1" , "Maddie Wise"           , 0, "F", "6-1" , "So", "Greenfield, Indiana"     , "Reg"));
+roster.push( new player(0, "4" , "Rae Johnson"            , 0, "G", "5-7" , "So", "Albertville, Minn."      , "Reg"));
+roster.push( new player(0, "10", "Nia Washington"         , 0, "G", "5-7" , "Jr", "Stafford, Virginia"           , "Reg"));
+roster.push( new player(0, "11", "Jade Thurmon"           , 0, "G", "5-8" , "Jr", "Lancaster, Texas"           , "Reg"));
 roster.push( new player(1, "13", "ay-dree-AH-nuh CAME-ber", 0, "F", "5-10", "So", "Lund, Sweden"            , "Reg"));
-roster.push( new player(1, "21", "Bridget Carleton"       , 0, "G", "6-1" , "Jr", "Chatham, Ontario, Canada", "Reg"));
-roster.push( new player(1, "25", "Kristin Scott"          , 0, "C", "6-3" , "Fr", "Kasson, Minn."           , "Reg"));
+roster.push( new player(0, "14", "Lauren Mills"           , 0, "F", "6-2", "Fr", "Hobart, Tasmania, Australia", "Reg"));
+roster.push( new player(0, "15", "EE-niss Nez-eh-quah"    , 0, "F", "6-3", "Sr", "Bujumbura, Burundi", "Reg"));
+roster.push( new player(1, "21", "Bridget Carleton"       , 0, "G", "6-1" , "Sr", "Chatham, Ontario, Canada", "Reg"));
+roster.push( new player(0, "23", "Maddie Frederick"       , 0, "G", "6-0" , "Fr", "Tipp City, Ohio", "Reg"));
+roster.push( new player(1, "24", "Ashley Joens".          , 0, "G", "6-0" , "Fr", "Iowa City, Iowa", "Reg"));
+roster.push( new player(0, "25", "Kristin Scott"          , 0, "C", "6-3" , "So", "Kasson, Minn."           , "Reg"));
+roster.push( new player(0, "31", "Morgan Kane"            , 0, "F", "6-3" , "Fr", "West Jordan, Utah"           , "Reg"));
 roster.push( new player(0, "30", "Claire Ricketts"        , 0, "F", "6-3" , "Jr", "Parker, Texas"           , "Reg"));
-roster.push( new player(1, "32", "Mere Burkhall"          , 0, "F", "6-3" , "Jr", "Urbandale, Iowa"         , "Reg"));
+roster.push( new player(0, "32", "Mere Burkhall"          , 0, "F", "6-3" , "Sr", "Urbandale, Iowa"         , "Reg"));
+roster.push( new player(1, "33", "Alexa Middleton"        , 0, "G", "5-9" , "Sr", "MURFREESBORO, TENN"      , "Reg"));
 
-// roster.push( new player(0, "2" , "Sofija ghee-vah-leu-veech", 0, "G", "5-9" , "Fr"    , "Podgorica, Montenegro"   , "Reg"));
+  // roster.push( new player(0, "2" , "Sofija ghee-vah-leu-veech", 0, "G", "5-9" , "Fr"    , "Podgorica, Montenegro"   , "Reg"));
 // roster.push( new player(1, "3" , "Emily Durr"       , 0, "G", "6-0" , "Jr"    , "Utica, N.Y."             , "Reg"));
 // roster.push( new player(1, "4" , "Heather BOE-vee"     , 0, "F", "6-0" , "Sr", "Eau Claire, Wis."        , "Star"));
 // roster.push( new player(0, "10", "NEE-uh Washington"   , 0, "G", "5-7" , "Fr"    , "Stafford, Va."           , "Reg"));
