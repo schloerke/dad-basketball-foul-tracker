@@ -297,7 +297,7 @@ roster.push( new player(0, "10", "Nia Washington"     , 0, "G", "5-7" , "Jr", "S
 roster.push( new player(0, "11", "Jade Thurmon"       , 0, "G", "5-8" , "Jr", "Lancaster, Texas"           , "Reg"));
 roster.push( new player(1, "13", "AD Camber"          , 0, "F", "5-10", "So", "Lund, Sweden"            , "Reg"));
 roster.push( new player(0, "14", "Lauren Mills"       , 0, "F", "6-2", "Fr", "Hobart, Tasmania"            , "Reg"));
-roster.push( new player(0, "15", "EE-niss Nez-eh-quah", 0, "F", "6-3", "Sr", "Bujumbura, Burundi", "Star"));
+roster.push( new player(0, "15", "EE-niss Nez-eh-quah", 0, "F", "6-3", "Sr", "Bujumbura, Burundi", "Reg"));
 roster.push( new player(1, "21", "Bridget Carleton"   , 0, "G", "6-1" , "Sr", "Chatham, Ontario, Canada", "Star"));
 roster.push( new player(1, "24", "Ashley Joens"       , 0, "G", "6-0" , "Fr", "Iowa City, Iowa", "Reg"));
 roster.push( new player(0, "25", "Kristin Scott"      , 0, "C", "6-3" , "So", "Kasson, Minn."           , "Reg"));
