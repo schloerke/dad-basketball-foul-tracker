@@ -162,7 +162,18 @@ function getRoster(side, isStarters)
           }
           // both stars... continue like normal
         }
-
+        
+        if (a.year == "Sr" || b.year == "Sr") {
+          if (a.year === "Sr" && b.year !== "Sr") {
+            // make a lower
+            return 1;
+          }
+          if (b.year === "Sr" && a.year !== "Sr") {
+            // make b lower
+            return -1;
+          }
+        }
+        
         // specialOrdering = ["Fr", "Red-Fr", "So", "Red-So", "Jr", "Red-Fr", "Sr"]
         // aPos = specialOrdering.indexOf(a.year)
         // bPos = specialOrdering.indexOf(b.year)
